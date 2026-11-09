@@ -1,0 +1,24 @@
+{
+  "leftGap": 0,
+  "alignOffsetX": 0,
+  "topGap": 0,
+  "bottomGap": 0,
+  "alignOffsetY": 0,
+  "baseLine": 0,
+  "contentAlign": "Left",
+  "rotation": 0,
+  "lineGap": 6.6,
+  "alignOffsetYMax": 0,
+  "alignOffsetXMax": 0,
+  "space": 1,
+  "lineGapOffset": 0.3,
+  "isDefault": false,
+  "lineNum": 0,
+  "fontSize": 100,
+  "rightGap": 0,
+  "fontPath": [
+    "blood8真迹_kvenjoy_blood8.gfont",
+    "blood8真迹2_kvenjoy_blood8.gfont",
+    "blood8真迹3_kvenjoy_blood8.gfont"
+  ]
+}

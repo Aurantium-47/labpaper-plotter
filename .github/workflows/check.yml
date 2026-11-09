@@ -1,0 +1,13 @@
+name: Check templates and skill
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests
+      - run: python scripts/build_template.py examples/layout.json --output generated/demo.json
+      - run: python -c "import json; from pathlib import Path; assert json.loads(Path('examples/demo.json').read_text()) == json.loads(Path('generated/demo.json').read_text())"

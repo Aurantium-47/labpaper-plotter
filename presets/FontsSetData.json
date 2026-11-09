@@ -1,0 +1,30 @@
+{
+  "chars": "，,.。",
+  "widthAdd": 0.0,
+  "simple": 0.0,
+  "tabWidthAdd": 0.0,
+  "baseLine": 1.0,
+  "spaceWidthAdd": 0.0,
+  "randomY": 0.02,
+  "randomFirstPos": 0.0,
+  "randomFontSize": [
+    0.95,
+    1.0
+  ],
+  "randomSpace": [
+    0.85,
+    1.1
+  ],
+  "randomRotate": [
+    -5.0,
+    -5.0
+  ],
+  "randomXScale": [
+    0.75,
+    1.2
+  ],
+  "randomYScale": [
+    0.85,
+    1.1
+  ]
+}
